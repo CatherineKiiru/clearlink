@@ -3,10 +3,10 @@ import { Button } from "flowbite-react";
 
 function Hero() {
   return (
-    <div className="md:grid grid-cols-2">
+    <div className="md:grid grid-cols-2 md:mt-28">
       <div>
-        <h1>Uniting the world, one video call at a time</h1>
-        <p>
+        <h1 className="text-6xl font-semibold text-gray-bold">Uniting the world, one video call at a time</h1>
+        <p className="text-2xl font-gray-normal">
           Experience the future of communication with ClearLink – where
           crystal-clear video conferencing meets unparalleled simplicity.
         </p>
