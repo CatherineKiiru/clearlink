@@ -17,7 +17,6 @@ function Hero() {
         <Button className=" px-4 text-center  md:block rounded-full  text-button-blue">
           <span className=""><img src="/src/images/ai-bot.svg" alt="" /></span>
           <h1 className="ml-4">Discover AI assistant</h1>
-          
         </Button>
         </div>
       </div>
