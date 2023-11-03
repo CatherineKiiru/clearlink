@@ -6,7 +6,7 @@ function Hero() {
     <div className="md:grid grid-cols-2 md:mt-28">
       <div>
         <h1 className="text-6xl font-semibold text-gray-bold">Uniting the world, one video call at a time</h1>
-        <p className="text-2xl font-gray-normal">
+        <p className="text-2xl font-[#667085]">
           Experience the future of communication with ClearLink – where
           crystal-clear video conferencing meets unparalleled simplicity.
         </p>
