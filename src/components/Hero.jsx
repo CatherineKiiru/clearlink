@@ -3,7 +3,7 @@ import { Button } from "flowbite-react";
 
 function Hero() {
   return (
-    <div className="grid grid-cols-2">
+    <div className="md:grid grid-cols-2">
       <div>
         <h1>Uniting the world, one video call at a time</h1>
         <p>
@@ -19,8 +19,14 @@ function Hero() {
           <h1 className="ml-4">Discover AI assistant</h1>
         </Button>
         </div>
+        <div>
+            <img src="/src/images/user-reviews.svg" alt="user reviews" />
+        </div>
       </div>
-      <div>2</div>
+
+      <div>
+        <img src="/src/images/hero-image.png" alt="" />
+      </div>
     </div>
   );
 }
