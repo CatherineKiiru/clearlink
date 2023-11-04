@@ -5,7 +5,7 @@ import { Navbar, Button, Dropdown } from "flowbite-react";
 function NavBar() {
   return (
     <Navbar
-      className="md:bg-[#F2F4F7] md:rounded-full  mt-3 md:mt-10 text-gray-normal"
+      className="md:bg-[#F2F4F7] w-full md:rounded-full absolute md:relative  md:w-auto py-6 md:mt-10 text-gray-normal "
       fluid
       rounded
     >
