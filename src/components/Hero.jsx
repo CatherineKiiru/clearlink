@@ -4,14 +4,14 @@ function Hero() {
   return (
     <div className=" md:grid grid-cols-2 pt-32 px-6 md:px-0 md:pt-0 md:mt-28">
       <div>
-        <h1 className="text-4xl  md:text-6xl font-extrabold text-gray-bold">
+        <h1 className="text-4xl md:w-auto md:text-6xl font-extrabold text-gray-bold">
           Uniting the world, one video call at a time
         </h1>
         <p className="text-sm w-11/12 px-2 md:text-2xl mt-6 font-normal text-[#667085]">
           Experience the future of communication with ClearLink – where
           crystal-clear video conferencing meets unparalleled simplicity.
         </p>
-        <div className="hidden md:block gap-4">
+        <div className="hidden md:flex md:mt-12 gap-4">
           <Button className=" px-4 text-center  rounded-full bg-button-blue text-white ">
             Talk to sales
           </Button>
@@ -27,7 +27,7 @@ function Hero() {
           <img className="w-1/2 md:w-1/3" src="/src/images/user-reviews.svg" alt="user reviews" />
         </div>
       </div>
-      <div className="mt-6">
+      <div className="mt-6 md:mt-0">
         <img src="/src/images/hero-image.png" alt="" />
       </div>
     </div>
