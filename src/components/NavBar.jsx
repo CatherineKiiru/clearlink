@@ -9,7 +9,7 @@ function NavBar() {
       fluid
       rounded
     >
-      <Navbar.Brand className="" href="https://flowbite-react.com">
+      <Navbar.Brand className="" href="">
         <img src="/src/images/clearlink-logo.png" alt="clearlink logo" />
       </Navbar.Brand>
 
