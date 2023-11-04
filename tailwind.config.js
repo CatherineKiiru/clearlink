@@ -10,7 +10,7 @@ export default {
     colors:{
       'gray-normal': '#667085',
       'gray-semibold': '#98A2B3',
-      'gray-bold': '#101828',
+      'gray-bold': '#1D2939',
       'button-blue':'#175CD3',
     },
     fontFamily: {
