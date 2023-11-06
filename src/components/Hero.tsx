@@ -5,10 +5,10 @@ function Hero() {
   return (
     <div className=" md:grid grid-cols-2 pt-32 px-6 md:px-0 md:pt-0 md:mt-28">
       <div>
-        <h1 className="text-4xl md:w-auto md:text-6xl font-extrabold text-gray-bold">
+        <h1 className="text-5xl md:w-auto md:text-6xl font-extrabold text-gray-bold">
           Uniting the world, one video call at a time
         </h1>
-        <p className="text-sm w-11/12 px-2 md:text-2xl mt-6 font-normal text-[#667085]">
+        <p className="text-xl w-11/12 px-2 md:text-2xl mt-6 font-normal text-[#667085]">
           Experience the future of communication with ClearLink – where
           crystal-clear video conferencing meets unparalleled simplicity.
         </p>
