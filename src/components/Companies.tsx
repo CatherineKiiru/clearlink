@@ -1,3 +1,5 @@
+import React from "react";
+
 function Companies() {
   return (
     <div className="py-20">
