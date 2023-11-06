@@ -1,10 +1,10 @@
 import React from "react";
-import shopify from "../images/Shopify.com svg.svg";
-import coinbase from "../images/Coinbase svg.svg";
-import dropbox from "../images/Dropbox svg.svg";
-import intercom from "../images/Intercom svg.svg";
-import marvel from "../images/Marvel svg.svg";
-import automattic from "../images/Automattic.svg";
+import shopify from "../images/shopify.svg";
+import coinbase from "../images/coinbase.svg";
+import dropbox from "../images/dropbox.svg";
+import intercom from "../images/intercom.svg";
+import marvel from "../images/marvel.svg";
+import automattic from "../images/automattic.svg";
 
 
 function Companies() {
