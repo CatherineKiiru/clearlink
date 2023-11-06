@@ -4,6 +4,7 @@ import './index.css'
 import NavBar from './components/NavBar.tsx'
 import Hero from './components/Hero.tsx'
 import Companies from './components/Companies.tsx'
+import Testimonals from './components/Testimonals.tsx'
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -11,5 +12,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <NavBar />
     <Hero />
     <Companies />
+    <Testimonals/>
   </React.StrictMode>,
 )
