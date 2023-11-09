@@ -3,7 +3,7 @@ import { Card } from "flowbite-react";
 
 function Features() {
   return (
-    <div className="grid grid-col-2 md:flex mt-2 md:mt-24 px-5 md:px-0">
+    <div className="flex flex-col-reverse  md:flex-row grid-col-2  mt-2 md:mt-24 px-5 md:px-0">
       {/* Grid 1 */}
       <div className=" md:w-3/4">
         <div className="mt-8 md:mt-0 space-y-6 md:space-y-0">
@@ -15,11 +15,11 @@ function Features() {
           </p>
         </div>
 
-        <div className=" md:mr-8 md:grid md:grid-rows-2 md:grid-flow-col space-y-4 md:space-y-0 mt-20">
+        <div className="px-8 md:mr-8 md:grid md:grid-rows-2 md:grid-flow-col space-y-4 md:space-y-0 mt-12 md:mt-20">
           <div className="">
             <Card className="max-w-sm md:border-none md:shadow-none">
               <img
-                className="w-5"
+                className="w-5 "
                 src="/src/images/video-recorder.svg"
                 alt="video recorder icon"
               />
@@ -73,9 +73,9 @@ function Features() {
       </div>
 
       {/* Grid 2 */}
-      <div className="mt-0 md:mt-20">
+      <div className="flex flex-col-reverse md:block mt-0 md:mt-20">
         <img
-          className=" md:h-[25%] items-center mr-8 md:ml-14 md:mx-auto md:absolute"
+          className="hidden md:flex md:h-[30%] items-center mr-8 md:ml-14 md:mx-auto md:absolute"
           src="/src/images/arrow.svg"
           alt="hand drawn arrow"
         />
