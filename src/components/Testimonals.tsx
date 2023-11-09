@@ -8,7 +8,7 @@ function Testimonals () {
                 <img src="" alt="" />
                 <h1></h1>
             </div>
-            <div>2</div>
+            <div></div>
 
         </div>
     )
