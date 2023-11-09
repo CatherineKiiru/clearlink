@@ -15,7 +15,7 @@ function Features() {
           </p>
         </div>
 
-        <div className="px-8 md:mr-8 md:grid md:grid-rows-2 md:grid-flow-col space-y-4 md:space-y-0 mt-12 md:mt-20">
+        <div className="px-5 md:px-0 md:mr-8 md:grid md:grid-rows-2 md:grid-flow-col space-y-4 md:space-y-0 mt-12 md:mt-20">
           <div className="">
             <Card className="max-w-sm md:border-none md:shadow-none">
               <img
