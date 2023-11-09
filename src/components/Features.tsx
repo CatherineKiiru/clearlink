@@ -3,7 +3,7 @@ import { Card } from "flowbite-react";
 
 function Features() {
   return (
-    <div className="flex flex-col-reverse  md:flex-row grid-col-2  mt-2 md:mt-24 px-5 md:px-0">
+    <div className="max-w-[1440px] mx-auto flex flex-col-reverse  md:flex-row grid-col-2  mt-2 md:mt-24 px-5 md:px-0">
       {/* Grid 1 */}
       <div className=" md:w-3/4">
         <div className="mt-8 md:mt-0 space-y-6 md:space-y-0">

@@ -3,7 +3,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className=" md:grid grid-cols-2 pt-32 px-6 md:px-0 md:pt-0 md:mt-28">
+    <div className="max-w-[1440px] mx-auto md:grid grid-cols-2 pt-32 px-6 md:pt-0 md:mt-28">
       <div>
         <h1 className="text-5xl md:w-auto md:text-6xl font-extrabold text-gray-bold">
           Uniting the world, one video call at a time

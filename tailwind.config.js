@@ -12,6 +12,7 @@ export default {
       'gray-semibold': '#98A2B3',
       'gray-bold': '#1D2939',
       'button-blue':'#175CD3',
+      'text-blue': '#101828'
     },
     fontFamily: {
       sans: ['Inter', 'sans-serif'],

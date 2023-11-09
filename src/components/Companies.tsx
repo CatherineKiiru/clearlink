@@ -9,7 +9,7 @@ import automattic from "../images/automattic.svg";
 
 function Companies() {
   return (
-    <div className="py-14">
+    <div className="py-14 max-w-[1440px] mx-auto">
       <div className="text-center px-6 md:px-0">
         <h1 className="text-xl text-[#475467]">
           Join 1,500+ companies already video conferencing the ClearLink way
