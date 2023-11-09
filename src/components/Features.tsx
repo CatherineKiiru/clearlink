@@ -19,7 +19,7 @@ function Features() {
           <div className="">
             <Card className="max-w-sm md:border-none md:shadow-none">
               <img
-                className="w-5 "
+                className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3"
                 src="/src/images/video-recorder.svg"
                 alt="video recorder icon"
               />
@@ -34,7 +34,7 @@ function Features() {
           </div>
           <div>
             <Card className="max-w-sm md:border-none md:shadow-none">
-              <img className="w-5" src="/src/images/sound-wave.svg" alt="sound wave icon" />
+              <img className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3" src="/src/images/sound-wave.svg" alt="sound wave icon" />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Noise-canceling audio{" "}
               </h5>
@@ -46,7 +46,7 @@ function Features() {
           </div>
           <div>
             <Card className="max-w-sm md:border-none md:shadow-none">
-              <img className="w-5" src="/src/images/calendar-icon.svg" alt="calendar icon" />
+              <img className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3" src="/src/images/calendar-icon.svg" alt="calendar icon" />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Scheduling made easy{" "}
               </h5>
@@ -59,7 +59,7 @@ function Features() {
           </div>
           <div>
             <Card className="max-w-sm md:border-none md:shadow-none">
-              <img className="w-5" src="/src/images/lock-icon.svg" alt="padlock icon" />
+              <img className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3" src="/src/images/lock-icon.svg" alt="padlock icon" />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Bank-grade security{" "}
               </h5>
