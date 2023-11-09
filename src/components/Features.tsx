@@ -3,21 +3,21 @@ import { Card } from "flowbite-react";
 
 function Features() {
   return (
-    <div className="px-5 md:px-0 flex flex-col-reverse md:flex md:grid-col-2">
+    <div className="grid grid-col-2 md:flex mt-2 md:mt-24 px-5 md:px-0">
       {/* Grid 1 */}
       <div className=" md:w-3/4">
         <div className="mt-8 md:mt-0 space-y-6 md:space-y-0">
           <h1 className="text-lg text-button-blue font-semibold">The ClearLink Advantage</h1>
           <h1 className="text-5xl text-[#1D2939] font-semibold">Why choose ClearLink?</h1>
-          <p className="text-2xl text-[#667085] font-normal">
+          <p className="text-2xl text-[#667085] font-normal pt-5">
             In a world where connection is everything, ClearLink takes the lead.
             Our cutting-edge video conferencing app offers:
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-8 mt-20">
-          <div>
-            <Card className="max-w-sm">
+        <div className=" md:mr-8 md:grid md:grid-rows-2 md:grid-flow-col space-y-4 md:space-y-0 mt-20">
+          <div className="">
+            <Card className="max-w-sm md:border-none md:shadow-none">
               <img
                 className="w-5"
                 src="/src/images/video-recorder.svg"
@@ -33,7 +33,7 @@ function Features() {
             </Card>
           </div>
           <div>
-            <Card className="max-w-sm">
+            <Card className="max-w-sm md:border-none md:shadow-none">
               <img className="w-5" src="/src/images/sound-wave.svg" alt="sound wave icon" />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Noise-canceling audio{" "}
@@ -45,7 +45,7 @@ function Features() {
             </Card>
           </div>
           <div>
-            <Card className="max-w-sm">
+            <Card className="max-w-sm md:border-none md:shadow-none">
               <img className="w-5" src="/src/images/calendar-icon.svg" alt="calendar icon" />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Scheduling made easy{" "}
@@ -58,7 +58,7 @@ function Features() {
             </Card>
           </div>
           <div>
-            <Card className="max-w-sm">
+            <Card className="max-w-sm md:border-none md:shadow-none">
               <img className="w-5" src="/src/images/lock-icon.svg" alt="padlock icon" />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Bank-grade security{" "}
@@ -73,14 +73,14 @@ function Features() {
       </div>
 
       {/* Grid 2 */}
-      <div className="flex flex-col-reverse">
+      <div className="mt-0 md:mt-20">
         <img
-          className="h-36 md:h-[30%] items-center mr-8 md:ml-14 md:mx-auto md:absolute"
+          className=" md:h-[25%] items-center mr-8 md:ml-14 md:mx-auto md:absolute"
           src="/src/images/arrow.svg"
           alt="hand drawn arrow"
         />
         <img
-          className=" md:mt-[40%]"
+          className="md:mt-48"
           src="/src/images/feature-image.svg"
           alt="image grid with many faces"
         />
