@@ -3,7 +3,7 @@ import React from "react";
 function Testimonals() {
   return (
     <div className="bg-[#F9FAFB] w-full ">
-    <div className="md:flex md:grid-col-2 md:py-24 max-w-[1440px] mx-auto justify-center">
+    <div className=" md:flex md:grid-col-2 md:py-24 max-w-[1440px] mx-auto justify-center">
       <div className="md:max-w-[640px] ">
         <img src="/src/images/shopify.svg" alt="shopify logo" />
         <img src="/src/images/stars.svg" alt="rating stars" />
