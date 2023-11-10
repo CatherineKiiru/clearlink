@@ -3,10 +3,10 @@ import { Card } from "flowbite-react";
 
 function Features() {
   return (
-    <div className=" mx-auto flex flex-col-reverse  md:flex-row grid-col-2 mt-2 md:mt-24 px-5 md:px-32">
+    <div className=" max-w-[1440px] mx-auto flex flex-col-reverse md:flex-row grid-col-2 mt-2 md:mt-24 px-6">
       {/* Grid 1 */}
       <div className="md:mr-14 md:w-3/4 md:pr-6">
-        <div className="mt-8 md:mt-0 space-y-6 md:space-y-0">
+        <div className="mt-8 md:mt-0 space-y-4 md:space-y-0">
           <h1 className="text-lg text-button-blue font-semibold">The ClearLink Advantage</h1>
           <h1 className="text-[46px] text-[#1D2939] font-semibold pt-3">Why choose ClearLink?</h1>
           <p className="text-2xl text-[#667085] font-normal pt-5">
@@ -74,7 +74,7 @@ function Features() {
       </div>
 
       {/* Grid 2 */}
-      <div className="flex flex-col-reverse md:block mt-0 md:mt-20 md:scale-110">
+      <div className="mr-8 flex flex-col-reverse md:block mt-0 md:mt-20 md:scale-110">
         <img
           className="hidden md:flex md:h-[30%] items-center mr-8 md:ml-14 md:mx-auto md:absolute "
           src="/src/images/arrow.svg"

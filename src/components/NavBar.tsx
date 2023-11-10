@@ -5,11 +5,10 @@ import { Navbar, Button, Dropdown } from "flowbite-react";
 function NavBar() {
   return (
     <Navbar
-      className="max-w-[1440px] mx-auto md:bg-[#F2F4F7] w-full md:rounded-full absolute md:relative  md:w-auto py-6 md:mt-10 text-gray-normal "
-      fluid
-      rounded
+      className="max-w-[1440px] mx-auto md:bg-[#F2F4F7] w-full md:rounded-full absolute md:relative md:w-auto py-6 md:mt-10 text-gray-normal "
+      
     >
-      <Navbar.Brand className="" href="">
+      <Navbar.Brand className="pl-5" href="">
         <img src="/src/images/clearlink-logo.png" alt="clearlink logo" />
       </Navbar.Brand>
 
@@ -20,7 +19,7 @@ function NavBar() {
         <Button className="hidden md:block rounded-full bg-button-blue">
           Sign up for free
         </Button>
-        <Navbar.Toggle className="hover:bg-white" />
+        <Navbar.Toggle className="hover:bg-white pr-5 border-transparent" />
       </div>
       <Navbar.Collapse >
         <div className="mx-auto text-center">

@@ -2,10 +2,10 @@ import React from "react";
 
 function Testimonals() {
   return (
-    <div className="bg-[#F9FAFB] w-full ">
-    <div className=" md:flex md:grid-col-2 md:py-24 max-w-[1440px] mx-auto justify-center">
-      <div className="md:max-w-[640px] ">
-        <img src="/src/images/shopify.svg" alt="shopify logo" />
+    <div className="bg-[#F9FAFB] w-full">
+    <div className=" md:flex md:grid-col-2 md:py-24 max-w-[1440px] px-5 md:px-32 mx-auto justify-center">
+      <div className="md:max-w-[640px] mt-10 md:mt-0 space-y-6 md:space-y-0">
+        <img className="pt-10 md:pt-0" src="/src/images/shopify.svg" alt="shopify logo" />
         <img src="/src/images/stars.svg" alt="rating stars" />
         <h1 className="text-text-blue font-medium md:text-[44px]">
           ClearLink has upgraded our remote meetings. High-quality video, screen
