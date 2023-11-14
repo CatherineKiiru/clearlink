@@ -6,6 +6,7 @@ import Hero from './components/Hero.tsx'
 import Companies from './components/Companies.tsx'
 import Testimonals from './components/Testimonals.tsx'
 import Features from './components/Features.tsx'
+import Support from './components/Support.tsx'
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -15,5 +16,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Companies />
     <Features/>
     <Testimonals/>
+    <Support />    
   </React.StrictMode>,
 )
