@@ -17,7 +17,7 @@ function Support() {
       {/* grid 2 */}
       <div className="">
         <Accordion>
-          <Accordion.Panel className=''>
+          <Accordion.Panel className="">
             <Accordion.Title>
               How many participants can join a ClearLink video conference?
             </Accordion.Title>
@@ -48,20 +48,12 @@ function Support() {
             </Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
-                Flowbite is first conceptualized and designed using the Figma
-                software so everything you see in the library has a design
-                equivalent in our Figma file.
-              </p>
-              <p className="text-gray-500 dark:text-gray-400">
-                Check out the
-                <a
-                  href="https://flowbite.com/figma/"
-                  className="text-cyan-600 hover:underline dark:text-cyan-500"
-                >
-                  Figma design system
-                </a>
-                based on the utility classes from Tailwind CSS and components
-                from Flowbite.
+                Yes, ClearLink can be used on multiple devices. ClearLink is
+                designed to be a versatile and flexible tool that can be
+                accessed from various devices such as smartphones, tablets,
+                laptops, and desktop computers. This allows users to seamlessly
+                switch between devices and continue using ClearLink without any
+                interruptions
               </p>
             </Accordion.Content>
           </Accordion.Panel>
@@ -71,39 +63,15 @@ function Support() {
             </Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
-                The main difference is that the core components from Flowbite
-                are open source under the MIT license, whereas Tailwind UI is a
-                paid product. Another difference is that Flowbite relies on
-                smaller and standalone components, whereas Tailwind UI offers
-                sections of pages.
+                Absolutely! ClearLink is designed to seamlessly integrate with
+                all major video conferencing platforms. Whether you prefer Zoom,
+                Microsoft Teams, Google Meet, or any other platform, ClearLink
+                has got you covered. Our user-friendly interface ensures a
+                smooth and hassle-free experience, allowing you to connect with
+                colleagues and clients effortlessly. Say goodbye to
+                compatibility issues and hello to crystal-clear video
+                conferencing with ClearLink.
               </p>
-              <p className="mb-2 text-gray-500 dark:text-gray-400">
-                However, we actually recommend using both Flowbite, Flowbite
-                Pro, and even Tailwind UI as there is no technical reason
-                stopping you from using the best of two worlds.
-              </p>
-              <p className="mb-2 text-gray-500 dark:text-gray-400">
-                Learn more about these technologies:
-              </p>
-              <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-                <li>
-                  <a
-                    href="https://flowbite.com/pro/"
-                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                  >
-                    Flowbite Pro
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://tailwindui.com/"
-                    rel="nofollow"
-                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                  >
-                    Tailwind UI
-                  </a>
-                </li>
-              </ul>
             </Accordion.Content>
           </Accordion.Panel>
           <Accordion.Panel>
@@ -112,39 +80,17 @@ function Support() {
             </Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
-                The main difference is that the core components from Flowbite
-                are open source under the MIT license, whereas Tailwind UI is a
-                paid product. Another difference is that Flowbite relies on
-                smaller and standalone components, whereas Tailwind UI offers
-                sections of pages.
+                Our robust encryption technology ensures that your video
+                conferences are completely private and shielded from any
+                unauthorized access. With end-to-end encryption, your data
+                remains encrypted throughout the entire conference, providing
+                you with peace of mind and confidence in the security of your
+                discussions. ClearLink also implements multi-factor
+                authentication, adding an extra layer of protection to ensure
+                that only authorized participants can join your meetings. This
+                prevents any potential intruders from infiltrating your
+                confidential conversations.
               </p>
-              <p className="mb-2 text-gray-500 dark:text-gray-400">
-                However, we actually recommend using both Flowbite, Flowbite
-                Pro, and even Tailwind UI as there is no technical reason
-                stopping you from using the best of two worlds.
-              </p>
-              <p className="mb-2 text-gray-500 dark:text-gray-400">
-                Learn more about these technologies:
-              </p>
-              <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-                <li>
-                  <a
-                    href="https://flowbite.com/pro/"
-                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                  >
-                    Flowbite Pro
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://tailwindui.com/"
-                    rel="nofollow"
-                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                  >
-                    Tailwind UI
-                  </a>
-                </li>
-              </ul>
             </Accordion.Content>
           </Accordion.Panel>
           <Accordion.Panel>
@@ -153,80 +99,34 @@ function Support() {
             </Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
-                The main difference is that the core components from Flowbite
-                are open source under the MIT license, whereas Tailwind UI is a
-                paid product. Another difference is that Flowbite relies on
-                smaller and standalone components, whereas Tailwind UI offers
-                sections of pages.
+                No need to worry about downloading any software! ClearLink is a
+                hassle-free, cloud-based solution that allows you to connect and
+                collaborate effortlessly. Simply log in to your account from any
+                device with an internet connection, and you'll have instant
+                access to all of ClearLink's powerful features. It's convenience
+                at its best, without the need for any software installations.
+                Start using ClearLink today and experience seamless
+                communication like never before!
               </p>
-              <p className="mb-2 text-gray-500 dark:text-gray-400">
-                However, we actually recommend using both Flowbite, Flowbite
-                Pro, and even Tailwind UI as there is no technical reason
-                stopping you from using the best of two worlds.
-              </p>
-              <p className="mb-2 text-gray-500 dark:text-gray-400">
-                Learn more about these technologies:
-              </p>
-              <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-                <li>
-                  <a
-                    href="https://flowbite.com/pro/"
-                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                  >
-                    Flowbite Pro
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://tailwindui.com/"
-                    rel="nofollow"
-                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                  >
-                    Tailwind UI
-                  </a>
-                </li>
-              </ul>
             </Accordion.Content>
           </Accordion.Panel>
           <Accordion.Panel>
             <Accordion.Title>
-              Do I need to download any software to use ClearLink?{' '}
+              What kind of customer support does ClearLink provide?{' '}
             </Accordion.Title>
             <Accordion.Content>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
-                The main difference is that the core components from Flowbite
-                are open source under the MIT license, whereas Tailwind UI is a
-                paid product. Another difference is that Flowbite relies on
-                smaller and standalone components, whereas Tailwind UI offers
-                sections of pages.
+                ClearLink offers exceptional customer support that goes above
+                and beyond expectations. Our dedicated team of customer service
+                professionals is available 24/7 to assist you with any inquiries
+                or concerns you may have. We pride ourselves on providing prompt
+                and personalized support, ensuring that your questions are
+                answered and issues are resolved in a timely manner. With
+                ClearLink, you can expect friendly, knowledgeable, and efficient
+                support that truly puts the customer first. Experience the
+                difference with ClearLink - your satisfaction is our top
+                priority.
               </p>
-              <p className="mb-2 text-gray-500 dark:text-gray-400">
-                However, we actually recommend using both Flowbite, Flowbite
-                Pro, and even Tailwind UI as there is no technical reason
-                stopping you from using the best of two worlds.
-              </p>
-              <p className="mb-2 text-gray-500 dark:text-gray-400">
-                Learn more about these technologies:
-              </p>
-              <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-                <li>
-                  <a
-                    href="https://flowbite.com/pro/"
-                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                  >
-                    Flowbite Pro
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://tailwindui.com/"
-                    rel="nofollow"
-                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                  >
-                    Tailwind UI
-                  </a>
-                </li>
-              </ul>
             </Accordion.Content>
           </Accordion.Panel>
         </Accordion>
