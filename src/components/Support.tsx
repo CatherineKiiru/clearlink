@@ -3,12 +3,12 @@ import { Accordion } from 'flowbite-react';
 
 function Support() {
   return (
-    <div className="max-w-[1440px] px-5 mx-auto md:flex md:gap-24">
+    <div className="max-w-[1440px] px-5 py-12 md:py-24 mx-auto space-y-6 md:space-y-0 md:flex md:gap-24">
       {/* grid 1 */}
-      <div className="w-1/3">
-        <h3 className='md:text-lg text-[#175CD3]'>Support</h3>
-        <h1 className='md:text-5xl text-[#1D2939]'>FAQs</h1>
-        <p>
+      <div className="md:w-1/2">
+        <h3 className='text-lg font-semibold text-[#175CD3]'>Support</h3>
+        <h1 className='text-5xl font-bold text-[#1D2939] mt-3'>FAQs</h1>
+        <p className='text-[#667085] mt-5'>
           Everything you need to know about the product and billing. Can’t find
           the answer you’re looking for? Please chat to our friendly team.
         </p>
@@ -16,12 +16,12 @@ function Support() {
 
       {/* grid 2 */}
       <div className="md:w-3/4">
-        <Accordion>
+        <Accordion id="accordion-open" data-accordion="open" className='outline-none border-none'>
           <Accordion.Panel className="">
-            <Accordion.Title>
+            <Accordion.Title className='bg-[#F9FAFB]'>
               How many participants can join a ClearLink video conference?
             </Accordion.Title>
-            <Accordion.Content>
+            <Accordion.Content className='bg-[#F9FAFB] border-none'>
               <p className="mb-2 text-gray-500 dark:text-gray-400">
                 ClearLink offers flexible meeting options. Depending on your
                 subscription plan, you can host meetings with varying numbers of
