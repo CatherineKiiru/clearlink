@@ -6,8 +6,8 @@ function Support() {
     <div className="max-w-[1440px] px-5 mx-auto md:flex md:gap-24">
       {/* grid 1 */}
       <div className="w-1/3">
-        <h3>Support</h3>
-        <h1>FAQs</h1>
+        <h3 className='md:text-lg text-[#175CD3]'>Support</h3>
+        <h1 className='md:text-5xl text-[#1D2939]'>FAQs</h1>
         <p>
           Everything you need to know about the product and billing. Can’t find
           the answer you’re looking for? Please chat to our friendly team.
@@ -15,7 +15,7 @@ function Support() {
       </div>
 
       {/* grid 2 */}
-      <div className="">
+      <div className="md:w-3/4">
         <Accordion>
           <Accordion.Panel className="">
             <Accordion.Title>
