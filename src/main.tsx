@@ -7,6 +7,7 @@ import Companies from './components/Companies.tsx'
 import Testimonals from './components/Testimonals.tsx'
 import Features from './components/Features.tsx'
 import Support from './components/Support.tsx'
+import Signup from './components/Signup.tsx'
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Companies />
     <Features/>
     <Testimonals/>
-    <Support />    
+    <Support />
+    <Signup />    
   </React.StrictMode>,
 )
