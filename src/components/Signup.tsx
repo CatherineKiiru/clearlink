@@ -30,7 +30,7 @@ function Signup() {
             Personalized onboarding
           </li>
         </ul>
-        <div className="mt-4 md:mt-10 md:space-x-4">
+        <div className="mt-4 md:mt-10 space-x-4">
           <button className="border border-[#98A2B3] rounded-full px-6 py-3 text-[#101828]">
             Talk to sales
           </button>
