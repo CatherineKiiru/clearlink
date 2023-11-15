@@ -15,7 +15,7 @@ function Companies() {
           Join 1,500+ companies already video conferencing the ClearLink way
         </h1>
       </div>
-      <div className="mt-12 mx-auto grid grid-cols-3 gap-4 w-3/4 md:w-auto  md:flex md:justify-between items-center">
+      <div className="mt-12 mx-auto grid grid-cols-3 gap-4 w-3/4 md:w-auto  lg:flex lg:justify-between items-center">
         <img src={shopify} alt="shopify-logo" />
         <img src={coinbase} alt="coinbase-logo" />
         <img src={dropbox} alt="dropbox-logo" />

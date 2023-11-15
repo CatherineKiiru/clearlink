@@ -5,7 +5,7 @@ import { Navbar, Button, Dropdown } from "flowbite-react";
 function NavBar() {
   return (
     <Navbar
-      className="max-w-[1440px] mx-auto md:bg-[#F2F4F7] w-full md:rounded-full absolute md:relative md:w-auto py-6 md:mt-10 text-gray-normal "
+      className="max-w-[1440px] justify-between mx-auto md:bg-[#F2F4F7] w-full md:rounded-full absolute md:relative md:w-auto py-6 md:mt-10 text-gray-normal "
       
     >
       <Navbar.Brand className="pl-5" href="">
@@ -13,10 +13,10 @@ function NavBar() {
       </Navbar.Brand>
 
       <div className="flex md:order-2 gap-4">
-        <Button className="hidden px-4 text-center  md:block rounded-full bg-white text-gray-bold border-gray-semibold">
+        <Button className="hidden px-4 text-center lg:block rounded-full bg-white text-gray-bold border-gray-semibold">
           Talk to sales
         </Button>
-        <Button className="hidden md:block rounded-full bg-button-blue">
+        <Button className="hidden lg:block rounded-full bg-button-blue">
           Sign up for free
         </Button>
         <Navbar.Toggle className="hover:bg-white pr-5 border-transparent" />

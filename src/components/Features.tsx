@@ -3,10 +3,10 @@ import { Card } from "flowbite-react";
 
 function Features() {
   return (
-    <div className=" max-w-[1440px] mx-auto flex flex-col-reverse md:flex-row grid-col-2 mt-2 md:mt-24 px-6">
+    <div className=" max-w-[1440px] mx-auto flex flex-col-reverse lg:flex-row grid-col-2 mt-2 lg:mt-24 px-6">
       {/* Grid 1 */}
-      <div className="md:mr-14 md:w-3/4 md:pr-6">
-        <div className="mt-8 md:mt-0 space-y-4 md:space-y-0">
+      <div className="lg:mr-14 lg:w-3/4 lg:pr-6">
+        <div className="mt-8 sm:mt-20 lg:mt-0 space-y-4 lg:space-y-0">
           <h1 className="text-lg text-button-blue font-semibold">The ClearLink Advantage</h1>
           <h1 className="text-[46px] text-[#1D2939] font-semibold pt-3">Why choose ClearLink?</h1>
           <p className="text-2xl text-[#667085] font-normal pt-5">
@@ -15,9 +15,9 @@ function Features() {
           </p>
         </div>
 
-        <div className="px-5 md:px-0 md:mr-8 md:grid md:grid-rows-2 md:grid-flow-col space-y-4 md:space-y-0 mt-12 md:mt-14">
+        <div className="px-5 lg:px-0 lg:mr-8 md:grid md:grid-rows-2 md:grid-flow-col space-y-4 md:space-y-0 mt-12 md:mt-14">
           <div className="">
-            <Card className="max-w-sm md:border-none md:shadow-none">
+            <Card className="max-w-sm lg:border-none lg:shadow-none">
               <img
                 className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3"
                 src="/src/images/video-recorder.svg"
@@ -33,7 +33,7 @@ function Features() {
             </Card>
           </div>
           <div>
-          <Card className="max-w-sm md:border-none md:shadow-none">
+          <Card className="max-w-sm lg:border-none lg:shadow-none">
               <img className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3" src="/src/images/calendar-icon.svg" alt="calendar icon" />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Scheduling made easy{" "}
@@ -46,7 +46,7 @@ function Features() {
             </Card>
           </div>
           <div>
-          <Card className="max-w-sm md:border-none md:shadow-none">
+          <Card className="max-w-sm lg:border-none lg:shadow-none">
               <img className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3" src="/src/images/sound-wave.svg" alt="sound wave icon" />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Noise-canceling audio{" "}
@@ -59,7 +59,7 @@ function Features() {
             
           </div>
           <div>
-            <Card className="max-w-sm md:border-none md:shadow-none">
+            <Card className="max-w-sm lg:border-none lg:shadow-none">
               <img className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3" src="/src/images/lock-icon.svg" alt="padlock icon" />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Bank-grade security{" "}
@@ -74,14 +74,14 @@ function Features() {
       </div>
 
       {/* Grid 2 */}
-      <div className="mr-8 flex flex-col-reverse md:block mt-0 md:mt-20 md:scale-110">
+      <div className="mr-8 flex flex-col-reverse lg:block mt-0 md:mt-20 md:scale-110">
         <img
-          className="hidden md:flex md:h-[30%] items-center mr-8 md:ml-14 md:mx-auto md:absolute "
+          className="hidden lg:flex md:h-[30%] items-center mr-8 md:ml-14 md:mx-auto md:absolute "
           src="/src/images/arrow.svg"
           alt="hand drawn arrow"
         />
         <img
-          className="md:mt-48"
+          className="lg:mt-48"
           src="/src/images/feature-image.svg"
           alt="image grid with many faces"
         />

@@ -8,6 +8,7 @@ module.exports = withMT({
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
+    
 
     colors:{
       'gray-normal': '#667085',
