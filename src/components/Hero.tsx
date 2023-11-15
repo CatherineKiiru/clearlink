@@ -17,7 +17,7 @@ function Hero() {
             Talk to sales
           </Button>
 
-          <Button className="hidden md:mx-0 px-4 md:block rounded-full  text-button-blue">
+          <Button className="hidden md:mx-0 px-4 bg-white md:block rounded-full  text-button-blue">
             <span className="flex gap-4 ">
               <img className="" src="/src/images/ai-bot.svg" alt="" />
               <h1 className="mt-1">Discover AI assistant</h1>

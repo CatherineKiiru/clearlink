@@ -9,6 +9,7 @@ import Features from './components/Features.tsx';
 import Support from './components/Support.tsx';
 import Signup from './components/Signup.tsx';
 import { ThemeProvider } from '@material-tailwind/react';
+import FooterSection from './components/Footer.tsx';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       <Testimonals />
       <Support />
       <Signup />
+      <FooterSection />
     </ThemeProvider>
   </React.StrictMode>
 );
