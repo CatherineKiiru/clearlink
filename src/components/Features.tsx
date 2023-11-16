@@ -8,7 +8,8 @@ function Features() {
       <div className="lg:mr-14 lg:w-3/4 lg:pr-6">
         <div className="mt-8 sm:mt-20 lg:mt-0 space-y-4 lg:space-y-0">
           <h1 className="text-lg text-button-blue font-semibold">The ClearLink Advantage</h1>
-          <h1 className="text-[46px] text-[#1D2939] font-semibold pt-3">Why choose ClearLink?</h1>
+          <h1 data-aos="fade-up"
+     data-aos-duration="3000" className="text-[46px] text-[#1D2939] font-semibold pt-3">Why choose ClearLink?</h1>
           <p className="text-2xl text-[#667085] font-normal pt-5">
             In a world where connection is everything, ClearLink takes the lead.
             Our cutting-edge video conferencing app offers:
@@ -74,7 +75,9 @@ function Features() {
       </div>
 
       {/* Grid 2 */}
-      <div className="mr-8 flex flex-col-reverse lg:block mt-0 md:mt-20 md:scale-110">
+      <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className="mr-8 flex flex-col-reverse lg:block mt-0 md:mt-20 md:scale-110">
         <img
           className="hidden lg:flex md:h-[30%] items-center mr-8 md:ml-14 md:mx-auto md:absolute "
           src="/src/images/arrow.svg"
