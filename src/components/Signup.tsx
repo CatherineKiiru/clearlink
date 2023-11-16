@@ -9,22 +9,22 @@ function Signup() {
           Ready to clear the path to perfect communication?
         </h1>
         <ul className="mt-12 text-[#475467] md:text-lg lg:mt-8 md:space-y-5">
-          <li className="flex gap-3">
+          <li data-aos="zoom-in-right" data-aos-duration="1500" className="flex gap-3">
             {' '}
             <img src={checkCircle} alt="check mark" />
             30 days free trial
           </li>
-          <li className=" flex gap-3">
+          <li data-aos="zoom-in-right" data-aos-duration="1800" className=" flex gap-3">
             {' '}
             <img src={checkCircle} alt="check mark" />
             Cancel at any time
           </li>
-          <li className=" flex gap-3">
+          <li data-aos="zoom-in-right"  data-aos-duration="2100" className=" flex gap-3">
             {' '}
             <img src={checkCircle} alt="check mark" />
             Access to all features
           </li>
-          <li className="flex gap-3">
+          <li data-aos="zoom-in-right" data-aos-duration="2400" className="flex gap-3">
             {' '}
             <img src={checkCircle} alt="check mark" />
             Personalized onboarding

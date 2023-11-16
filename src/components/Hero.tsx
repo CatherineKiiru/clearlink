@@ -1,12 +1,15 @@
-import { Button } from "flowbite-react";
-import React from "react";
+import { Button } from 'flowbite-react';
+import React from 'react';
 
 function Hero() {
   return (
     <div className="max-w-[1440px] mx-auto lg:grid lg:grid-cols-2 pt-32 px-6 md:pt-0 md:mt-28">
       <div data-aos="fade-right">
-        <h1 data-aos="fade-up"
-     data-aos-duration="3000" className="text-5xl md:w-auto md:text-6xl font-extrabold text-gray-bold">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          className="text-5xl md:w-auto md:text-6xl font-extrabold text-gray-bold"
+        >
           Uniting the world, one video call at a time
         </h1>
         <p className="text-xl w-11/12 px-2 md:text-2xl mt-6 font-normal text-[#667085]">
@@ -26,13 +29,15 @@ function Hero() {
           </Button>
         </div>
         <div className="hidden md:block md:mt-14 md:w-auto justify-center items-center mx-auto">
-          <img className="w-1/2 md:w-1/3" src="/src/images/user-reviews.svg" alt="user reviews" />
+          <img
+            className="w-1/2 md:w-1/3"
+            src="/src/images/user-reviews.svg"
+            alt="user reviews"
+          />
         </div>
       </div>
-      <div className="mt-6 md:mt-0" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-        <img src="/src/images/hero-image.png" alt="" />
+      <div className="mt-6 md:mt-0" data-aos="zoom-in" data-aos-duration="3000">
+        <img className="" src="/src/images/hero-image.png" alt="" />
       </div>
     </div>
   );

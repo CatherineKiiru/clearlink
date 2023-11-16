@@ -1,5 +1,5 @@
-import React from "react";
-import { Card } from "flowbite-react";
+import React from 'react';
+import { Card } from 'flowbite-react';
 
 function Features() {
   return (
@@ -7,9 +7,16 @@ function Features() {
       {/* Grid 1 */}
       <div className="lg:mr-14 lg:w-3/4 lg:pr-6">
         <div className="mt-8 sm:mt-20 lg:mt-0 space-y-4 lg:space-y-0">
-          <h1 className="text-lg text-button-blue font-semibold">The ClearLink Advantage</h1>
-          <h1 data-aos="fade-up"
-     data-aos-duration="3000" className="text-[46px] text-[#1D2939] font-semibold pt-3">Why choose ClearLink?</h1>
+          <h1 className="text-lg text-button-blue font-semibold">
+            The ClearLink Advantage
+          </h1>
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            className="text-[46px] text-[#1D2939] font-semibold pt-3"
+          >
+            Why choose ClearLink?
+          </h1>
           <p className="text-2xl text-[#667085] font-normal pt-5">
             In a world where connection is everything, ClearLink takes the lead.
             Our cutting-edge video conferencing app offers:
@@ -25,7 +32,7 @@ function Features() {
                 alt="video recorder icon"
               />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Crystal-clear HD video{" "}
+                Crystal-clear HD video{' '}
               </h5>
               <p className="font-normal text-[#475467] ">
                 No more pixelation or blurriness – just stunning, lifelike
@@ -34,10 +41,14 @@ function Features() {
             </Card>
           </div>
           <div>
-          <Card className="max-w-sm lg:border-none lg:shadow-none">
-              <img className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3" src="/src/images/calendar-icon.svg" alt="calendar icon" />
+            <Card className="max-w-sm lg:border-none lg:shadow-none">
+              <img
+                className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3"
+                src="/src/images/calendar-icon.svg"
+                alt="calendar icon"
+              />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Scheduling made easy{" "}
+                Scheduling made easy{' '}
               </h5>
               <p className="font-normal text-[#475467]">
                 Streamline your agenda with ClearLink's intuitive scheduling.
@@ -47,23 +58,30 @@ function Features() {
             </Card>
           </div>
           <div>
-          <Card className="max-w-sm lg:border-none lg:shadow-none">
-              <img className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3" src="/src/images/sound-wave.svg" alt="sound wave icon" />
+            <Card className="max-w-sm lg:border-none lg:shadow-none">
+              <img
+                className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3"
+                src="/src/images/sound-wave.svg"
+                alt="sound wave icon"
+              />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Noise-canceling audio{" "}
+                Noise-canceling audio{' '}
               </h5>
               <p className="font-normal text-[#475467]">
                 Say goodbye to distractions with our advanced audio tech for
                 crisp, interruption-free conversations.
               </p>
             </Card>
-            
           </div>
           <div>
             <Card className="max-w-sm lg:border-none lg:shadow-none">
-              <img className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3" src="/src/images/lock-icon.svg" alt="padlock icon" />
+              <img
+                className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3"
+                src="/src/images/lock-icon.svg"
+                alt="padlock icon"
+              />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Bank-grade security{" "}
+                Bank-grade security{' '}
               </h5>
               <p className="font-normal text-[#475467]">
                 Your privacy is our priority with bank-grade security protocols
@@ -75,11 +93,13 @@ function Features() {
       </div>
 
       {/* Grid 2 */}
-      <div data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" className="mr-8 flex flex-col-reverse lg:block mt-0 md:mt-20 md:scale-110">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+        className="mr-8 flex flex-col-reverse lg:block mt-0 md:mt-20 md:scale-110"
+      >
         <img
-          className="hidden lg:flex md:h-[30%] items-center mr-8 md:ml-14 md:mx-auto md:absolute "
+          className="animate-bounce hidden lg:flex md:h-[30%] items-center mr-8 md:ml-14 md:mx-auto md:absolute "
           src="/src/images/arrow.svg"
           alt="hand drawn arrow"
         />

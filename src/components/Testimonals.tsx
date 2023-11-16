@@ -10,11 +10,15 @@ function Testimonals() {
             src="/src/images/shopify.svg"
             alt="shopify-logo"
           />
-          <img className='items-center justify-center mx-auto ' src="/src/images/stars.svg" alt="rating stars" />
+          <img
+            className="items-center justify-center mx-auto "
+            src="/src/images/stars.svg"
+            alt="rating stars"
+          />
           <h1 className="text-center justify-center mx-auto text-text-blue font-medium text-3xl md:text-4xl lg:text-[44px]">
-            ClearLink has upgraded our remote meetings. High-quality video,
+            "ClearLink has upgraded our remote meetings. High-quality video,
             screen sharing, and top-notch security make it essential for our
-            team.
+            team.""
           </h1>
 
           <div className="md:flex md:justify-between">
@@ -23,19 +27,26 @@ function Testimonals() {
                 <img src="/src/images/avatar.svg" alt="" />
               </div>
               <div>
-                <h1 className='text-[#101828] font-semibold text-xl'>Sarah Thompson</h1>
+                <h1 className="text-[#101828] font-semibold text-xl">
+                  Sarah Thompson
+                </h1>
                 <p>Project Manager, Shopify</p>
               </div>
             </div>
 
-            <div className="items-center justify-center mx-auto flex scale-75 gap-4">
+            {/* <div className="items-center justify-center mx-auto flex scale-75 gap-4">
               <img src="/src/images/carousel-arrow-left.svg" alt="" />
               <img src="/src/images/carousel-arrow-right.svg" alt="" />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="lg:scale-110 md:ml-10 mt-10 lg:mt-8">
-          <img src="/src/images/contents.svg" alt="testimonials images" />
+          <img
+            data-aos="zoom-in"
+            data-aos-duration="3000"
+            src="/src/images/contents.svg"
+            alt="testimonials images"
+          />
         </div>
       </div>
     </div>
