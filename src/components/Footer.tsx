@@ -17,7 +17,7 @@ function FooterSection() {
         <div className="md:mb-12 px-5 md:px-0 container mx-auto grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           
         <Footer.Divider className='md:hidden'/>
-        <div className="w-full lg:w-1/2 space-y-6">
+        <div className="w-full md:w-1/2 lg:w-1/2 space-y-6">
             <Footer.Brand
               href=""
               src="/src/images/clearlink-logo.png"
@@ -29,7 +29,7 @@ function FooterSection() {
               conferencing. Join us in shaping the future of communication!
             </h1>
           </div>
-          <div className="grid grid-cols-4 mt-8 md:mt-0 lg:grid-cols-5 sm:gap-6 w-full">
+          <div className="grid grid-cols-5 mt-8 md:mt-0 lg:grid-cols-5 sm:gap-6 w-full">
             <div>
               <Footer.Title title="Product" />
               <Footer.LinkGroup col className='text-xs md:text-base'>
@@ -71,10 +71,10 @@ function FooterSection() {
                 <Footer.Link href="#">Contact</Footer.Link>
               </Footer.LinkGroup>
             </div>
-            <div className="mt-10 lg:mt-0 ">
+            <div className=" lg:mt-0 ">
               <Footer.Title title="Get the app" className="text-[#004EEB] " />
               
-              <Footer.LinkGroup className="grid grid-cols-2 lg:flex scale-150 lg:scale-100">
+              <Footer.LinkGroup className="lg:flex lg:space-y-8 scale-150 lg:scale-100">
                 <Footer.Brand
                   href=""
                   src="/src/images/appstore-badge.svg"
