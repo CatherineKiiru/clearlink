@@ -1,10 +1,13 @@
 import React from 'react';
 import checkCircle from '../images/check-circle.svg';
+import { Footer } from 'flowbite-react';
 
 function Signup() {
   return (
     <div className="flex flex-col-reverse container lg:flex lg:flex-row mx-auto md:gap-24 px-5 md:px-0 lg:pt-16 md:pb-24 lg:pb-36">
-      <div className="text-center lg:text-left lg:w-2/3 md:mt-0">
+              
+
+      <div className="text-center lg:text-left lg:w-2/3 mt-24 mb-12 md:mb-0 md:mt-0">
         <h1 className="text-4xl md:text-[40px] font-semibold text-[#101828]">
           Ready to clear the path to perfect communication?
         </h1>
