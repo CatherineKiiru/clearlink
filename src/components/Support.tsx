@@ -29,17 +29,7 @@ function Support() {
                 collaborations and large-scale webinars, ensuring you have the
                 right fit for your needs.
               </p>
-              <p className="text-gray-500 dark:text-gray-400">
-                Check out this guide to learn how to&nbsp;
-                <a
-                  href="https://flowbite.com/docs/getting-started/introduction/"
-                  className="text-cyan-600 hover:underline dark:text-cyan-500"
-                >
-                  get started&nbsp;
-                </a>
-                and start developing websites even faster with components on top
-                of Tailwind CSS.
-              </p>
+              
             </Accordion.Content>
           </Accordion.Panel>
           <Accordion.Panel>
