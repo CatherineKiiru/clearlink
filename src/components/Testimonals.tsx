@@ -15,10 +15,10 @@ function Testimonals() {
             src="/src/images/stars.svg"
             alt="rating stars"
           />
-          <h1 className="text-center justify-center mx-auto text-text-blue font-medium text-3xl md:text-4xl lg:text-[44px]">
+          <h1 className="text-center justify-center mx-auto text-text-blue font-medium text-2xl md:text-4xl lg:text-[44px]">
             "ClearLink has upgraded our remote meetings. High-quality video,
             screen sharing, and top-notch security make it essential for our
-            team.""
+            team."
           </h1>
 
           <div className="md:flex md:justify-between">

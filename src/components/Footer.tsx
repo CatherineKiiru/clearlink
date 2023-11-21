@@ -15,8 +15,7 @@ function FooterSection() {
   return (
     <Footer className="shadow-none border-none">
       <div className="w-full">
-        <div className="mb-12 px-5 md:px-0 container mx-auto grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-          <Footer.Divider className="md:hidden" />
+        <div className=" mb-12 px-5 md:px-0 container mx-auto grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div className="w-full md:w-1/2 lg:w-1/2 space-y-6">
             <Footer.Brand
               href=""
@@ -31,8 +30,8 @@ function FooterSection() {
           </div>
           <div className="grid grid-cols-5 mt-8 md:mt-0 lg:grid-cols-5 sm:gap-6 w-full">
             <div>
-              <Footer.Title title="Product" />
-              <Footer.LinkGroup col className="text-xs md:text-base">
+              <Footer.Title title="Product" className="text-[10px] md:text-base"/>
+              <Footer.LinkGroup col className="text-[10px] md:text-base">
                 <Footer.Link href="#">Overview</Footer.Link>
                 <Footer.Link href="#">Features</Footer.Link>
                 <Footer.Link href="#">Solutions</Footer.Link>
@@ -41,8 +40,8 @@ function FooterSection() {
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Company" />
-              <Footer.LinkGroup col className="text-xs md:text-base">
+              <Footer.Title title="Company" className="text-[10px] md:text-base"/>
+              <Footer.LinkGroup col className="text-[10px] md:text-base">
                 <Footer.Link href="#">About Us</Footer.Link>
                 <Footer.Link href="#">Careers</Footer.Link>
                 <Footer.Link href="#">Press</Footer.Link>
@@ -51,8 +50,8 @@ function FooterSection() {
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Resources" />
-              <Footer.LinkGroup col className="text-xs md:text-base">
+              <Footer.Title title="Resources" className="text-[10px] md:text-base"/>
+              <Footer.LinkGroup col className="text-[10px] md:text-base">
                 <Footer.Link href="#">Blog</Footer.Link>
                 <Footer.Link href="#">Events</Footer.Link>
                 <Footer.Link href="#">Help Center</Footer.Link>
@@ -62,8 +61,8 @@ function FooterSection() {
             </div>
 
             <div>
-              <Footer.Title title="Legal" />
-              <Footer.LinkGroup col className="text-xs md:text-base">
+              <Footer.Title title="Legal" className="text-[10px] md:text-base"/>
+              <Footer.LinkGroup col className="text-[10px] md:text-base">
                 <Footer.Link href="#">Terms</Footer.Link>
                 <Footer.Link href="#">Privacy</Footer.Link>
                 <Footer.Link href="#">Cookies</Footer.Link>
@@ -72,9 +71,9 @@ function FooterSection() {
               </Footer.LinkGroup>
             </div>
             <div className=" lg:mt-0 ">
-              <Footer.Title title="Get the app" className="text-[#004EEB] " />
+              <Footer.Title title="Get the app" className="text-[#004EEB] text-[10px] md:text-base" />
 
-              <Footer.LinkGroup className="lg:flex lg:space-y-8 scale-150 lg:scale-100">
+              <Footer.LinkGroup className="lg:flex lg:space-y-8 scale-10 lg:scale-100">
                 <Footer.Brand
                   href=""
                   src="/src/images/appstore-badge.svg"
@@ -89,16 +88,14 @@ function FooterSection() {
                   name="Playstore"
                 />
               </Footer.LinkGroup>
-              <div className="mt-12 scale-150 lg:pl-20 ">
-                <Footer.Icon
-                  onClick={() => {
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  href=""
-                  icon={BsArrowUpCircleFill}
-                  
-                />
-              </div>
+              <button
+                className="mt-6 md:mt-12 lg:pl-16 animate-pulse"
+                onClick={() => {
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+              >
+                <BsArrowUpCircleFill className="w-6 h-6 md:w-12 md:h-12 shadow-md rounded-full fill-blue-500" />
+              </button>
             </div>
           </div>
         </div>

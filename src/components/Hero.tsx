@@ -36,7 +36,7 @@ function Hero() {
           />
         </div>
       </div>
-      <div className="mt-6 md:mt-0" data-aos="zoom-in" data-aos-duration="3000">
+      <div className="mt-6 md:mt-0 " data-aos="zoom-in" data-aos-duration="3000">
         <img className="" src="/src/images/hero-image.png" alt="" />
       </div>
     </div>
