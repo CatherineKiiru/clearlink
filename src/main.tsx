@@ -10,13 +10,14 @@ import Support from './components/Support.tsx';
 import Signup from './components/Signup.tsx';
 import { ThemeProvider } from '@material-tailwind/react';
 import FooterSection from './components/Footer.tsx';
-import  ContactForm  from '../routes/ContactForm.tsx';
+import  ContactForm  from './components/ContactForm.tsx';
 import Root from '../routes/root.tsx'
 import {
   createBrowserRouter,
   RouterProvider,
   Link,
 } from "react-router-dom";
+import Contacts from '../routes/Contacts.tsx';
 
 const router = createBrowserRouter([
   {
@@ -26,8 +27,8 @@ const router = createBrowserRouter([
     children: [
 
       {
-        path: "/contacts",
-        element: <ContactForm />
+        path: "/contact",
+        element: <Contacts />
       },
       
     ]   
@@ -42,14 +43,15 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
         <RouterProvider router={router} />
 
     <ThemeProvider>
-      <Hero />
+      {/* <Hero />
       <Companies />
       <Features />
       <Testimonals />
       <Support />
       <Signup />
-      <FooterSection />
-      <ContactForm />
+      <FooterSection /> */}
+      {/* <Contacts/> */}
+      {/* <ContactForm /> */}
     </ThemeProvider>
   </React.StrictMode>
 );
