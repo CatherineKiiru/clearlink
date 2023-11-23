@@ -12,7 +12,7 @@ function NavBar() {
         </Navbar.Brand>
 
         <div className="flex md:order-2 gap-4">
-          <Link to={`contacts`}>
+          <Link to={`contact`}>
             <Button className="hidden px-4 text-center lg:block rounded-full bg-white text-gray-bold border-gray-semibold">
               Talk to sales
             </Button>
@@ -51,9 +51,11 @@ function NavBar() {
               Pricing
             </Navbar.Link>
           </div>
-          <Button className="mt-4  md:mt-0 md:hidden  bg-white text-gray-bold border-gray-semibold">
-            Talk to sales
-          </Button>
+          <Link to={`contact`}>
+            <Button className="mt-4  md:mt-0 md:hidden  bg-white text-gray-bold border-gray-semibold">
+              Talk to sales
+            </Button>
+          </Link>
           <Button className="mt-4 md:mt-0 md:hidden  bg-button-blue ">
             Sign up for free
           </Button>

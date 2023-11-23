@@ -1,9 +1,10 @@
 import { Button } from 'flowbite-react';
 import React from 'react';
+import { Link, Outlet } from 'react-router-dom';
 
 function Hero() {
   return (
-    <div className="max-w-[1440px] mx-auto lg:grid lg:grid-cols-2 pt-32 px-6 md:pt-0 md:mt-28">
+    <><div className="max-w-[1440px] mx-auto lg:grid lg:grid-cols-2 pt-32 px-6 md:pt-0 md:mt-28">
       <div data-aos="fade-right">
         <h1
           data-aos="fade-up"
@@ -17,10 +18,11 @@ function Hero() {
           crystal-clear video conferencing meets unparalleled simplicity.
         </p>
         <div className="hidden md:flex md:mt-12 gap-4">
-          <Button className=" px-4 text-center  rounded-full bg-button-blue text-white ">
-            Talk to sales
-          </Button>
-
+          <Link to={`contact`}>
+            <Button className=" px-4 text-center  rounded-full bg-button-blue text-white ">
+              Talk to sales
+            </Button>
+          </Link>
           <Button className="hidden md:mx-0 px-4 bg-white md:block rounded-full  text-button-blue">
             <span className="flex gap-4 ">
               <img className="" src="/src/images/ai-bot.svg" alt="" />
@@ -32,14 +34,13 @@ function Hero() {
           <img
             className="w-1/2 md:w-1/3"
             src="/src/images/user-reviews.svg"
-            alt="user reviews"
-          />
+            alt="user reviews" />
         </div>
       </div>
       <div className="mt-6 md:mt-0 " data-aos="zoom-in" data-aos-duration="3000">
         <img className="" src="/src/images/hero-image.png" alt="" />
       </div>
-    </div>
+    </div><Outlet /></>
   );
 }
 
