@@ -11,24 +11,37 @@ import Signup from './components/Signup.tsx';
 import { ThemeProvider } from '@material-tailwind/react';
 import FooterSection from './components/Footer.tsx';
 import  ContactForm  from '../routes/ContactForm.tsx';
+import Root from '../routes/root.tsx'
 import {
   createBrowserRouter,
   RouterProvider,
+  Link,
 } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <NavBar />, //this is the root layout
+    
+    children: [
+
+      {
+        path: "/contacts",
+        element: <ContactForm />
+      },
+      
+    ]   
+    
   },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  
   <React.StrictMode>
         <RouterProvider router={router} />
 
     <ThemeProvider>
-      <NavBar />
       <Hero />
       <Companies />
       <Features />

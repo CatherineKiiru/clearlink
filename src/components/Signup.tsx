@@ -1,6 +1,6 @@
 import React from 'react';
 import checkCircle from '../images/check-circle.svg';
-import { Footer } from 'flowbite-react';
+import { Link, Outlet } from 'react-router-dom';
 
 function Signup() {
   return (
@@ -34,9 +34,12 @@ function Signup() {
           </li>
         </ul>
         <div className="mt-12 md:mt-10 space-x-4">
-          <button className="border border-[#98A2B3] rounded-full px-4 md:px-6 py-3 text-[#101828]">
+        
+        <button className="border border-[#a7b6d0] rounded-full px-4 md:px-6 py-3 text-[#101828]">
             Talk to sales
           </button>
+         
+          
           <button className="bg-[#175CD3] rounded-full px-4 md:px-6 py-3 text-white">
             Start your free trial
           </button>
@@ -52,7 +55,9 @@ function Signup() {
           Your browser does not support the video tag.
         </video>
       </div>
+      
     </div>
+    
   );
 }
 

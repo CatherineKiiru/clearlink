@@ -145,7 +145,7 @@ function ContactForm() {
             </div>
           </div>
           <div className="text-center">
-            <button className=" mt-8 bg-button-blue text-white px-12 py-2 rounded-full shadow-md hover:bg-blue-400" disabled={disabled} type="submit">
+            <button className=" mt-8 bg-button-blue text-white px-12 py-4 rounded-full shadow-md hover:bg-blue-400" disabled={disabled} type="submit">
               Submit
             </button>
           </div>
