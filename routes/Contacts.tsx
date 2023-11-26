@@ -13,6 +13,7 @@ import { SubmitHandler, useForm } from 'react-hook-form';
 import { Toast } from 'flowbite-react';
 import { HiCheck, HiExclamation, HiX } from 'react-icons/hi';
 import FooterSection from '../src/components/Footer';
+import NavBar from './NavBar';
 
 type Inputs = {
   example: string;
@@ -77,7 +78,11 @@ function Contacts() {
 
   return (
     <>
+    <div className='hidden md:block'>
+    <NavBar/>
+    </div>
       <div className="py-12 container mx-auto bg-white">
+      <img src="/src/images/clearlink-logo.png" className='md:hidden px-5' alt="clearlink logo" />
         <div className="md:flex" onSubmit={handleSubmit(onSubmit)}>
           <form className="flex max-w-md bg-white mt-24 md:max-w-xl container mx-auto flex-col gap-4">
             <div>
