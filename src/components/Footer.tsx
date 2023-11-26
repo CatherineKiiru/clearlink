@@ -10,6 +10,8 @@ import {
   BsLinkedin,
   BsArrowUpCircleFill,
 } from 'react-icons/bs';
+import playStore from "../images/playstore-badge.svg"
+import appStore from "../images/appstore-badge.svg"
 
 function FooterSection() {
   return (
@@ -76,14 +78,14 @@ function FooterSection() {
               <Footer.LinkGroup className="lg:flex lg:space-y-8 scale-10 lg:scale-100">
                 <Footer.Brand
                   href=""
-                  src="/src/images/appstore-badge.svg"
+                  src={appStore}
                   alt="App store download link"
                   name="App store"
                   className=""
                 />
                 <Footer.Brand
                   href=""
-                  src="/src/images/playstore-badge.svg"
+                  src={playStore}
                   alt="playstore logo"
                   name="Playstore"
                 />
@@ -103,7 +105,7 @@ function FooterSection() {
           <div className="container mx-auto w-full text-center md:flex-left sm:flex sm:items-center sm:justify-between ">
             <Footer.Copyright
               href="https://twitter.com/CatherineKiiru"
-              target=""
+              
               by="Clearlink™, All Rights Reserved. Website Developed by Catherine Kiiru"
               year={2023}
             />

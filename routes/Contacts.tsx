@@ -16,6 +16,7 @@ import FooterSection from '../src/components/Footer';
 import NavBar from './NavBar';
 import { Link } from 'react-router-dom';
 import logo from "../src/images/clearlink-logo.png"
+import heroImage from "../src/images/hero-image.png"
 
 type Inputs = {
   example: string;
@@ -140,7 +141,7 @@ function Contacts() {
             </Button>
           </form>
           <div className="mt-6 md:mt-0 ">
-            <img className="" src="/src/images/hero-image.png" alt="" />
+            <img className="" src={heroImage} alt="" />
           </div>
         </div>
 
