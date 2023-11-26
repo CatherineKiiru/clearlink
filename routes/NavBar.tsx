@@ -8,7 +8,9 @@ function NavBar() {
     <>
       <Navbar className="max-w-[1440px] justify-between mx-auto md:bg-[#F2F4F7] w-full md:rounded-full absolute md:relative md:w-auto py-6 md:mt-10 text-gray-normal ">
         <Navbar.Brand className="pl-5" href="">
+          <Link to='/'>
           <img src="/src/images/clearlink-logo.png" alt="clearlink logo" />
+          </Link>
         </Navbar.Brand>
 
         <div className="flex md:order-2 gap-4">
@@ -17,9 +19,11 @@ function NavBar() {
               Talk to sales
             </Button>
           </Link>
+          <Link to={`contact`}>
           <Button className="hidden lg:block rounded-full bg-button-blue">
             Sign up for free
           </Button>
+          </Link>
           <Navbar.Toggle className="hover:bg-white pr-5 border-transparent" />
         </div>
         <Navbar.Collapse>

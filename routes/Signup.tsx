@@ -32,15 +32,17 @@ function Signup() {
           </li>
         </ul>
         <div className="mt-12 md:mt-10 space-x-4">
-        
+        <Link to={`contact`}>
         <button className="border border-[#a7b6d0] rounded-full px-4 md:px-6 py-3 text-[#101828]">
             Talk to sales
           </button>
+          </Link>
          
-          
+          <Link to={`contact`}>
           <button className="bg-[#175CD3] rounded-full px-4 md:px-6 py-3 text-white">
             Start your free trial
           </button>
+          </Link>
         </div>
       </div>
       {/* video section */}

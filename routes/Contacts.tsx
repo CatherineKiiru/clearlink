@@ -14,6 +14,7 @@ import { Toast } from 'flowbite-react';
 import { HiCheck, HiExclamation, HiX } from 'react-icons/hi';
 import FooterSection from '../src/components/Footer';
 import NavBar from './NavBar';
+import { Link } from 'react-router-dom';
 
 type Inputs = {
   example: string;
@@ -78,15 +79,22 @@ function Contacts() {
 
   return (
     <>
-    <div className='hidden md:block'>
-    <NavBar/>
-    </div>
+      <div className="hidden md:block">
+        <NavBar />
+      </div>
       <div className="py-12 container mx-auto bg-white">
-      <img src="/src/images/clearlink-logo.png" className='md:hidden px-5' alt="clearlink logo" />
+        <Link to="/">
+          <img
+            src="/src/images/clearlink-logo.png"
+            className="md:hidden px-5"
+            alt="clearlink logo"
+          />
+        </Link>
         <div className="md:flex" onSubmit={handleSubmit(onSubmit)}>
-          <form className="flex max-w-md bg-white mt-24 md:max-w-xl container mx-auto flex-col gap-4">
-            <div>
-              <div className="mb-2 block">
+          <form className="flex max-w-md bg-white mt-12 md:mt-0 md:max-w-xl container mx-auto flex-col gap-4">
+            <h1 className='text-3xl font-semibold text-text-blue'>Get in touch with us to enquire about pricing, the product or any other enquiry</h1>
+            <div className='md:mt-8'>
+              <div className="mb-2 block mt-12 md:mt-0">
                 <Label htmlFor="name1" value="Your name" />
               </div>
               <TextInput
