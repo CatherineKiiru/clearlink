@@ -28,9 +28,8 @@ function NavBar() {
           <Navbar.Toggle className="hover:bg-white pr-5 border-transparent" />
         </div>
         <Navbar.Collapse>
-          
-          <div className="mx-auto text-center group h-0">
-            <Dropdown className=" group-hover:block" label="Products" inline>
+          <div className="mx-auto text-center">
+            <Dropdown className="" label="Products" inline>
               <Dropdown.Item>Virtual Meetings</Dropdown.Item>
               <Dropdown.Item>Conferencing Devices</Dropdown.Item>
               <Dropdown.Item>VoIP Phone System</Dropdown.Item>
@@ -53,13 +52,13 @@ function NavBar() {
               <Dropdown.Item>Meet the team</Dropdown.Item>
             </Dropdown>
           </div>
-          <div className="mx-auto text-center mt-4 md:mt-0">
+          {/* <div className="mx-auto text-center mt-4 md:mt-0">
             <Navbar.Link className="text-gray" href="#">
               Pricing
             </Navbar.Link>
-          </div>
+          </div> */}
           <Link to={`contact`}>
-            <Button className="mt-4  md:mt-0 md:hidden  bg-white text-gray-bold border-gray-semibold">
+            <Button className="mt-4 w-full md:mt-0 md:hidden  bg-white text-gray-bold border-gray-semibold">
               Talk to sales
             </Button>
           </Link>
