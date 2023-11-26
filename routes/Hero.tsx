@@ -2,6 +2,7 @@ import { Button } from 'flowbite-react';
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import heroImage from "../src/images/hero-image.png"
+import reviews from "../src/images/user-reviews.svg"
 
 function Hero() {
   return (
@@ -34,7 +35,7 @@ function Hero() {
         <div className="hidden md:block md:mt-14 md:w-auto justify-center items-center mx-auto">
           <img
             className="w-1/2 md:w-1/3"
-            src="/src/images/user-reviews.svg"
+            src={reviews}
             alt="user reviews" />
         </div>
       </div>

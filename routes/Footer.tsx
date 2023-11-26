@@ -12,6 +12,7 @@ import {
 } from 'react-icons/bs';
 import appleStore from "../src/images/appstore-badge.svg";
 import playStore from "../src/images/playstore-badge.svg";
+import logo from "../src/images/clearlink-logo.png"
 
 function FooterSection() {
   return (
@@ -21,7 +22,7 @@ function FooterSection() {
           <div className="w-full md:w-1/2 lg:w-1/2 space-y-6">
             <Footer.Brand
               href=""
-              src="/src/images/clearlink-logo.png"
+              src={logo}
               alt="CLearLink Logo"
               name="Clearlink"
             />
