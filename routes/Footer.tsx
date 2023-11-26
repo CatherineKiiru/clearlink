@@ -103,7 +103,6 @@ function FooterSection() {
           <div className="container mx-auto w-full text-center md:flex-left sm:flex sm:items-center sm:justify-between ">
             <Footer.Copyright
               href="https://twitter.com/CatherineKiiru"
-              target=""
               by="Clearlink™, All Rights Reserved. Website Developed by Catherine Kiiru"
               year={2023}
             />
