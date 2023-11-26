@@ -15,6 +15,7 @@ import { HiCheck, HiExclamation, HiX } from 'react-icons/hi';
 import FooterSection from '../src/components/Footer';
 import NavBar from './NavBar';
 import { Link } from 'react-router-dom';
+import logo from "../src/images/clearlink-logo.png"
 
 type Inputs = {
   example: string;
@@ -85,7 +86,7 @@ function Contacts() {
       <div className="py-12 container mx-auto bg-white">
         <Link to="/">
           <img
-            src="/src/images/clearlink-logo.png"
+            src={logo}
             className="md:hidden px-5"
             alt="clearlink logo"
           />

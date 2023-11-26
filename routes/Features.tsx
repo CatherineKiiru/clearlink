@@ -1,5 +1,14 @@
 import React from 'react';
 import { Card } from 'flowbite-react';
+import calendarIcon from "../src/images/calendar-icon.svg"
+import videoIcon from "../src/images/video-recorder.svg"
+import soundIcon from "../src/images/sound-wave.svg"
+import lockIcon from "../src/images/lock-icon.svg"
+import arrowIcon from "../src/images/arrow.svg"
+import manyFacesImage from "../src/images/feature-image.svg"
+
+
+
 
 function Features() {
   return (
@@ -28,7 +37,7 @@ function Features() {
             <Card className="max-w-sm lg:border-none lg:shadow-none">
               <img
                 className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3"
-                src="/src/images/video-recorder.svg"
+              src={videoIcon}
                 alt="video recorder icon"
               />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -44,7 +53,7 @@ function Features() {
             <Card className="max-w-sm lg:border-none lg:shadow-none">
               <img
                 className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3"
-                src="/src/images/calendar-icon.svg"
+                src={calendarIcon}
                 alt="calendar icon"
               />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -61,7 +70,7 @@ function Features() {
             <Card className="max-w-sm lg:border-none lg:shadow-none">
               <img
                 className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3"
-                src="/src/images/sound-wave.svg"
+                src={soundIcon}
                 alt="sound wave icon"
               />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -77,7 +86,7 @@ function Features() {
             <Card className="max-w-sm lg:border-none lg:shadow-none">
               <img
                 className="w-12 bg-[#F9FAFB] outline outline-[#EAECF0] outline-1 rounded-full p-3"
-                src="/src/images/lock-icon.svg"
+                src={lockIcon}
                 alt="padlock icon"
               />
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -100,12 +109,12 @@ function Features() {
       >
         <img
           className="animate-bounce hidden lg:flex md:h-[30%] items-center mr-8 md:ml-14 md:mx-auto md:absolute "
-          src="/src/images/arrow.svg"
+          src={arrowIcon}
           alt="hand drawn arrow"
         />
         <img
           className="lg:mt-48"
-          src="/src/images/feature-image.svg"
+          src={manyFacesImage}
           alt="image grid with many faces"
         />
       </div>

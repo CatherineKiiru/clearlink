@@ -1,4 +1,8 @@
 import React from 'react';
+import shopifyLogo from "../src/images/shopify.svg"
+import stars from "../src/images/stars.svg";
+import avatar from "../src/images/avatar.svg";
+import testimonials from "../src/images/contents.svg"
 
 function Testimonals() {
   return (
@@ -7,12 +11,12 @@ function Testimonals() {
         <div className="lg:max-w-[40rem] mt-10 md:mt-0 space-y-4 lg:space-y-12">
           <img
             className="pt-10 md:pt-0 items-center justify-center mx-auto"
-            src="/src/images/shopify.svg"
+            src={shopifyLogo}
             alt="shopify-logo"
           />
           <img
             className="items-center justify-center mx-auto "
-            src="/src/images/stars.svg"
+            src={stars}
             alt="rating stars"
           />
           <h1 className="text-center justify-center mx-auto text-text-blue font-medium text-2xl md:text-4xl lg:text-[44px]">
@@ -24,7 +28,7 @@ function Testimonals() {
           <div className="md:flex md:justify-between">
             <div className="flex gap-4 items-center justify-center mx-auto">
               <div className="">
-                <img src="/src/images/avatar.svg" alt="" />
+                <img src={avatar} alt="" />
               </div>
               <div>
                 <h1 className="text-[#101828] font-semibold text-xl">
@@ -44,7 +48,7 @@ function Testimonals() {
           <img
             data-aos="zoom-in"
             data-aos-duration="3000"
-            src="/src/images/contents.svg"
+            src={testimonials}
             alt="testimonials images"
           />
         </div>

@@ -1,6 +1,7 @@
 import { Button } from 'flowbite-react';
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
+import heroImage from "../src/images/hero-image.png"
 
 function Hero() {
   return (
@@ -38,7 +39,7 @@ function Hero() {
         </div>
       </div>
       <div className="mt-6 md:mt-0 " data-aos="zoom-in" data-aos-duration="3000">
-        <img className="" src="/src/images/hero-image.png" alt="" />
+        <img className="" src={heroImage} alt="" />
       </div>
     </div><Outlet /></>
   );

@@ -1,6 +1,7 @@
 import React from 'react';
 import checkCircle from '../src/images/check-circle.svg';
 import { Link, Outlet } from 'react-router-dom';
+import video from '../src/images/pexels-diva-plavalaguna-6985525 (1440p).mp4'
 
 function Signup() {
   return (
@@ -49,7 +50,7 @@ function Signup() {
       <div className='mt-14 lg:mt-0 lg:w-3/4'>
         <video className="scale-125 rounded-lg" controls autoPlay muted>
           <source
-            src="/src/images/pexels-diva-plavalaguna-6985525 (1440p).mp4"
+            src={video}
             type="video/mp4"
           />
           Your browser does not support the video tag.

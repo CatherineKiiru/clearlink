@@ -10,6 +10,8 @@ import {
   BsLinkedin,
   BsArrowUpCircleFill,
 } from 'react-icons/bs';
+import appleStore from "../src/images/appstore-badge.svg";
+import playStore from "../src/images/playstore-badge.svg";
 
 function FooterSection() {
   return (
@@ -76,14 +78,14 @@ function FooterSection() {
               <Footer.LinkGroup className="lg:flex lg:space-y-8 scale-10 lg:scale-100">
                 <Footer.Brand
                   href=""
-                  src="/src/images/appstore-badge.svg"
+                  src={appleStore}
                   alt="App store download link"
                   name="App store"
                   className=""
                 />
                 <Footer.Brand
                   href=""
-                  src="/src/images/playstore-badge.svg"
+                  src={playStore}
                   alt="playstore logo"
                   name="Playstore"
                 />

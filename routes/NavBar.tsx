@@ -2,6 +2,7 @@
 import React from 'react';
 import { Navbar, Button, Dropdown } from 'flowbite-react';
 import { Link, Outlet } from 'react-router-dom';
+import logo from '../src/images/clearlink-logo.png'
 
 function NavBar() {
   return (
@@ -9,7 +10,7 @@ function NavBar() {
       <Navbar className="max-w-[1440px] justify-between mx-auto md:bg-[#F2F4F7] w-full md:rounded-full absolute md:relative md:w-auto py-6 md:mt-10 text-gray-normal ">
         <Navbar.Brand className="pl-5" href="">
           <Link to='/'>
-          <img src="/src/images/clearlink-logo.png" alt="clearlink logo" />
+          <img src={logo} alt="clearlink logo" />
           </Link>
         </Navbar.Brand>
 
