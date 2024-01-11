@@ -1,8 +1,5 @@
-# React + Vite
+# Clearlink Landing page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a video streaming landing page built with Typescript, & React. The project demonstrates how to implement pixel-perfect designs, how to use TypeScript, React Router, & AOS animations in a project.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live site - clearlinkbycatherinekiiru.netlify.app/
